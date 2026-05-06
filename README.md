@@ -34,7 +34,7 @@ At each timestep:
 - GPU: NVIDIA GPU with WSL2 passthrough (tested: RTX 4060, 8GB VRAM)
 - Disk: **≥ 30GB free** on the drive hosting the WSL `.vhdx` file (kitchen assets ~5GB, dependencies ~10GB)
 - RAM: ≥ 8GB (tested with 8GB)
-- Software: Conda, Git, `uv`l)
+- Software: Conda, Git, `uv`
 
 ### GRASP Cluster
 - Account: GRASP cluster access with SSH ed25519 key registered
@@ -83,7 +83,7 @@ srun --partition=kostas-compute --qos=kd-med --gres=gpu:a40:1 --pty bash
  
 Once on the compute node, set CUDA env vars again and install:
 ```bash
-cd /your_space/Isaac-GR00T
+cd <your_space>/Isaac-GR00T
 export PATH=/usr/local/cuda-11.8/bin:$PATH
 export CUDA_HOME=/usr/local/cuda-11.8
 uv sync
