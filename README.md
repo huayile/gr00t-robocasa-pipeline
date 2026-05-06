@@ -45,7 +45,7 @@ At each timestep:
 ## Part 1: Cluster Setup — GR00T Policy Server
  
  
-### Step 1 — Clone Isaac-GR00T to home
+### Step 1 — Clone Isaac-GR00T
 ```bash
 cd <your_space>
 git clone --recurse-submodules https://github.com/NVIDIA/Isaac-GR00T
