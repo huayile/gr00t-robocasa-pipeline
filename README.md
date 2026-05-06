@@ -104,7 +104,7 @@ Expected: `2.7.1+cu128 True`.
  
 ```bash
 export MPLBACKEND=Agg
-export HF_HOME=/mnt/kostas-graid/datasets/<advisor>/<pennkey>/cache/huggingface
+export HF_HOME=/mnt/kostas-graid/datasets/<your_path>/cache/huggingface
 mkdir -p $HF_HOME
 .venv/bin/python gr00t/eval/run_gr00t_server.py \
     --embodiment-tag ROBOCASA_PANDA_OMRON \
@@ -251,6 +251,8 @@ Tested with GR00T N1.6-3B on a single A40 (cluster) and Franka Panda (local WSL2
 ## Part 6: Custom Simulation Environment (`fixed_pnp_env.py`)
 
 A script for VLA benchmarking with configurable object types and positions. Located at `grasp_experiments/fixed_pnp_env.py`.
+
+you can **Jump directly to [Usage](#usage)**.
 
 ### Design
 
